@@ -6,6 +6,8 @@ const checkKeyCode = (event) => {
     tracker += 1
   } else {
     tracker = 0
+  } if (tracker === 10){
+    alert ("you got it")
   }
   console.log(tracker)
 }
